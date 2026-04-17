@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agoo Oficial Website</title>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<link href="https://font.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+body{
+             background-image: url('images/eagle.jpg'); 
+             background-size: cover;
+             background-position: center;
+             background-attachment: fixed; 
+             background-repeat: no-repeat;
+}
+h1{
+  font-family:  Playfair Display;
+}
+h2{
+  font-family:  Playfair Display;
+}
+.card:hover{
+    transform: translateY(-10px)scale(1.03);
+    box-shadow:0 15px 30px rgba(0,0,0,0.3);
+}
+</style>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+<div class="container">
+<a class="navbar-brand" href="#">Agoo, La Union Tourism Website</a>
+
+<button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="nav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="homeagoo.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="aboutagoo.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="attractions.html">Attractions</a></li>
+<li class="nav-item"><a class="nav-link" href="festivals.html">Festivals</a></li>
+<li class="nav-item"><a class="nav-link" href="business.html">Businesses</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container pt-5">
+  <h1 class="text-center display-6 fw-bold text-dark mb-4 mt-5">FESTIVALS & EVENTS</h1>
+
+  <div class="row g-4">
+
+   
+    <div class="col-md-4 d-flex">
+      <div class="card w-100">
+        <img src="images/fiesta.webp" class="card-img-top" style="height:200px; object-fit:cover;" alt="Fiesta">
+
+        <div class="card-body">
+          <h2 class="card-title">Annual Town Fiesta</h2>
+          <p class="card-text">A grand celebration with parades, food, and community activities.</p>
+          <p><strong>Month:</strong> December</p>
+
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#fiestaModal">
+            View More
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4 d-flex">
+      <div class="card w-100">
+        <img src="images/religious.webp" class="card-img-top" style="height:200px; object-fit:cover;" alt="Religious">
+
+        <div class="card-body">
+          <h2 class="card-title">Religious Celebrations</h2>
+          <p class="card-text">Devotional events honoring Our Lady of Charity.</p>
+          <p><strong>Month:</strong> May</p>
+
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#religiousModal">
+            View More
+          </button>
+        </div>
+      </div>
+    </div>
+
+  
+    <div class="col-md-4 d-flex">
+      <div class="card w-100">
+        <img src="images/denengdeng.webp" class="card-img-top" style="height:200px; object-fit:cover;" alt="Cultural">
+
+        <div class="card-body">
+          <h2 class="card-title">Cultural Festivals</h2>
+          <p class="card-text">Showcases local traditions, dances, and heritage.</p>
+          <p><strong>Month:</strong> April</p>
+
+          <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#culturalModal">
+            View More
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="modal fade" id="fiestaModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Annual Town Fiesta</h2>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Agoo’s Annual Town Fiesta includes parades, street dancing, and local food.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="religiousModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Religious Celebrations</h2>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Celebrations honoring Our Lady of Charity with processions and masses.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="culturalModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Cultural Festivals</h2>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        Events showcasing traditional dances, music, and heritage.
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
